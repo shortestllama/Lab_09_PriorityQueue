@@ -1,5 +1,5 @@
 # Change this line before submission
-KUID = XXXXXXX
+KUID = 3067365
 PROGNAME = simulator
 
 CC = gcc --std=gnu11

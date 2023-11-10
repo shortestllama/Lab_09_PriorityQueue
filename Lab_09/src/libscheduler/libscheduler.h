@@ -4,6 +4,12 @@
 #ifndef LIBSCHEDULER_H_
 #define LIBSCHEDULER_H_
 
+typedef struct _scheduler_t
+{
+  job_t cpu_cores[];
+  scheme_t scheme;
+} scheduler_t;
+
 /**
   Constants which represent the different scheduling algorithms
 */
